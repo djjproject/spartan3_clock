@@ -1,0 +1,16 @@
+net "reset" loc = "P57";
+net "clk" loc = "P76";
+
+net "com[3]" loc = "P18";
+net "com[2]" loc = "P19";
+net "com[1]" loc = "P20";
+net "com[0]" loc = "P21";
+
+net "data[7]" loc = "P22";
+net "data[6]" loc = "P24";
+net "data[5]" loc = "P26";
+net "data[4]" loc = "P27";
+net "data[3]" loc = "P28";
+net "data[2]" loc = "P29";
+net "data[1]" loc = "P31";
+net "data[0]" loc = "P33";

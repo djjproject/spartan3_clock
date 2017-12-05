@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "C:/Users/ccc/udc_8bit/udc.xst" -ofn "C:/Users/ccc/udc_8bit/udc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-pq208-4 udc.ngc udc.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o udc_map.ncd udc.ngd udc.pcf 
+par -w -intstyle ise -ol high -t 1 udc_map.ncd udc.ncd udc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml udc.twx udc.ncd -o udc.twr udc.pcf 
+bitgen -intstyle ise -f udc.ut udc.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc udc.ucf -p xc3s200-pq208-4 udc.ngc udc.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o udc_map.ncd udc.ngd udc.pcf 
+par -w -intstyle ise -ol high -t 1 udc_map.ncd udc.ncd udc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml udc.twx udc.ncd -o udc.twr udc.pcf -ucf udc.ucf 
+bitgen -intstyle ise -f udc.ut udc.ncd 
+xst -intstyle ise -ifn "C:/Users/ccc/udc_8bit/udc.xst" -ofn "C:/Users/ccc/udc_8bit/udc.syr" 
+xst -intstyle ise -ifn "C:/Users/ccc/udc_8bit/udc.xst" -ofn "C:/Users/ccc/udc_8bit/udc.syr" 
+xst -intstyle ise -ifn "C:/Users/ccc/udc_8bit/udc.xst" -ofn "C:/Users/ccc/udc_8bit/udc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc udc.ucf -p xc3s200-pq208-4 udc.ngc udc.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o udc_map.ncd udc.ngd udc.pcf 
+par -w -intstyle ise -ol high -t 1 udc_map.ncd udc.ncd udc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml udc.twx udc.ncd -o udc.twr udc.pcf -ucf udc.ucf 
+bitgen -intstyle ise -f udc.ut udc.ncd 
+xst -intstyle ise -ifn "C:/Users/ccc/udc_8bit/udc.xst" -ofn "C:/Users/ccc/udc_8bit/udc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc udc.ucf -p xc3s200-pq208-4 udc.ngc udc.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o udc_map.ncd udc.ngd udc.pcf 
+par -w -intstyle ise -ol high -t 1 udc_map.ncd udc.ncd udc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml udc.twx udc.ncd -o udc.twr udc.pcf -ucf udc.ucf 
+bitgen -intstyle ise -f udc.ut udc.ncd 
+xst -intstyle ise -ifn "C:/Users/ccc/udc_8bit/udc.xst" -ofn "C:/Users/ccc/udc_8bit/udc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc udc.ucf -p xc3s200-pq208-4 udc.ngc udc.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o udc_map.ncd udc.ngd udc.pcf 
+par -w -intstyle ise -ol high -t 1 udc_map.ncd udc.ncd udc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml udc.twx udc.ncd -o udc.twr udc.pcf -ucf udc.ucf 
+bitgen -intstyle ise -f udc.ut udc.ncd 

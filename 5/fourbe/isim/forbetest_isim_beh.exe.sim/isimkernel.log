@@ -1,0 +1,10 @@
+Command line:
+   forbetest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1432
+
+Wed Oct 01 03:05:21 2014
+
+
+ Elaboration Time: 0.125 sec

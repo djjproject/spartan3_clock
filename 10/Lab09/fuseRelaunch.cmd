@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/tb_text_lcd_isim_beh.exe" -prj "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/tb_text_lcd_beh.prj" "work.tb_text_lcd" "work.glbl" 

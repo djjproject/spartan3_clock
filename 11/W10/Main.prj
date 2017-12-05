@@ -1,0 +1,4 @@
+verilog work "Counter.v"
+verilog work "BCD_Converter.v"
+verilog work "LCD.v"
+verilog work "Main.v"

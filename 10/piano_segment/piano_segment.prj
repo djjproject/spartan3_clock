@@ -1,0 +1,3 @@
+verilog work "piano.v"
+verilog work "../bcd_7segment_decoder/segment.v"
+verilog work "piano_segment.v"

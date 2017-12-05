@@ -1,0 +1,40 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Mon Nov 17 15:12:19 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P76" LEVEL 1;
+COMP "lcde" LOCATE = SITE "P154" LEVEL 1;
+COMP "lcddata2<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "lcddata2<1>" LOCATE = SITE "P12" LEVEL 1;
+COMP "lcddata2<2>" LOCATE = SITE "P10" LEVEL 1;
+COMP "lcddata2<3>" LOCATE = SITE "P204" LEVEL 1;
+COMP "lcddata2<4>" LOCATE = SITE "P200" LEVEL 1;
+COMP "lcddata2<5>" LOCATE = SITE "P198" LEVEL 1;
+COMP "lcddata2<6>" LOCATE = SITE "P196" LEVEL 1;
+COMP "lcddata2<7>" LOCATE = SITE "P191" LEVEL 1;
+COMP "lcdrs" LOCATE = SITE "P156" LEVEL 1;
+COMP "lcdrw" LOCATE = SITE "P155" LEVEL 1;
+COMP "lcddata<0>" LOCATE = SITE "P152" LEVEL 1;
+COMP "lcddata<1>" LOCATE = SITE "P150" LEVEL 1;
+COMP "lcddata<2>" LOCATE = SITE "P149" LEVEL 1;
+COMP "lcddata<3>" LOCATE = SITE "P148" LEVEL 1;
+COMP "lcddata<4>" LOCATE = SITE "P147" LEVEL 1;
+COMP "lcddata<5>" LOCATE = SITE "P146" LEVEL 1;
+COMP "lcddata<6>" LOCATE = SITE "P144" LEVEL 1;
+COMP "lcddata<7>" LOCATE = SITE "P143" LEVEL 1;
+COMP "ctl<0>" LOCATE = SITE "P58" LEVEL 1;
+COMP "ctl<1>" LOCATE = SITE "P71" LEVEL 1;
+COMP "ctl<2>" LOCATE = SITE "P62" LEVEL 1;
+COMP "ctl<3>" LOCATE = SITE "P50" LEVEL 1;
+COMP "ctl<4>" LOCATE = SITE "P74" LEVEL 1;
+COMP "ctl<5>" LOCATE = SITE "P68" LEVEL 1;
+COMP "ctl<6>" LOCATE = SITE "P67" LEVEL 1;
+COMP "resetn" LOCATE = SITE "P57" LEVEL 1;
+COMP "state<0>" LOCATE = SITE "P199" LEVEL 1;
+COMP "state<1>" LOCATE = SITE "P197" LEVEL 1;
+COMP "state<2>" LOCATE = SITE "P194" LEVEL 1;
+COMP "state<3>" LOCATE = SITE "P190" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

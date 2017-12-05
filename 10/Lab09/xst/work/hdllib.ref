@@ -1,0 +1,4 @@
+MO text_lcd NULL text_lcd.v vlg3F/text__lcd.bin 1415603439
+MO counter_bcd_updown NULL counter_bcd_updown.v vlg64/counter__bcd__updown.bin 1415603439
+MO top NULL top.v vlg6F/top.bin 1415603439
+MO clk_divisor NULL clk_divisor.v vlg19/clk__divisor.bin 1415603439

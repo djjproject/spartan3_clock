@@ -1,0 +1,2 @@
+verilog isim_temp "netgen/par/fourgate_timesim.v"
+verilog isim_temp "fourbetest1.v"

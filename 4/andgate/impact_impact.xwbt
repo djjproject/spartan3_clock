@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\xilinx\andgate\impact.xsl
+OUTFILE=D:\xilinx\andgate\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=D:\xilinx\andgate
+LICENSE=iMPACT
+USER_INFO=iMPACT

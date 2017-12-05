@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/xilinx/7/bcdexcess/bcdexcess.xst" -ofn "D:/xilinx/7/bcdexcess/bcdexcess.syr" 

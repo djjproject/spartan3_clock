@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ccc\udc_8bit\udc.ncd
+OUTFILE=C:\Users\ccc\udc_8bit\udc.bit
+FAMILY=Spartan3
+PART=xc3s200-4pq208
+WORKINGDIR=C:\Users\ccc\udc_8bit
+LICENSE=WebPack
+USER_INFO=210940403_0_0_318

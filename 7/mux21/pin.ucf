@@ -1,0 +1,5 @@
+NET "i[0]" LOC = "P63";
+NET "i[1]" LOC = "P67";
+NET "s" LOC = "P65";
+
+NET "z" LOC = "P191";

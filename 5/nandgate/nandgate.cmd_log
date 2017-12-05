@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/5/nandgate/nandgate.xst" -ofn "C:/Xilinx/xilinx/5/nandgate/nandgate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s200-pqg208-4 nandgate.ngc nandgate.ngd  
+map -intstyle ise -p xa3s200-pqg208-4 -cm area -ir off -pr off -c 100 -o nandgate_map.ncd nandgate.ngd nandgate.pcf 
+par -w -intstyle ise -ol high -t 1 nandgate_map.ncd nandgate.ncd nandgate.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml nandgate.twx nandgate.ncd -o nandgate.twr nandgate.pcf 
+bitgen -intstyle ise -f nandgate.ut nandgate.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/5/nandgate/nandgate.xst" -ofn "C:/Xilinx/xilinx/5/nandgate/nandgate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s200-pqg208-4 nandgate.ngc nandgate.ngd  
+map -intstyle ise -p xa3s200-pqg208-4 -cm area -ir off -pr off -c 100 -o nandgate_map.ncd nandgate.ngd nandgate.pcf 
+par -w -intstyle ise -ol high -t 1 nandgate_map.ncd nandgate.ncd nandgate.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml nandgate.twx nandgate.ncd -o nandgate.twr nandgate.pcf 
+bitgen -intstyle ise -f nandgate.ut nandgate.ncd 

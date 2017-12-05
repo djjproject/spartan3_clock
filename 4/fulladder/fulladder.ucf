@@ -1,0 +1,5 @@
+NET "A" LOC = "P63";
+NET "B" LOC = "P67";
+NET "C_in" LOC = "P65";
+NET "S" LOC = "P191";
+NET "C_out" LOC = "P196";

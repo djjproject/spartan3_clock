@@ -1,0 +1,14 @@
+NET "N" LOC = "P63";
+NET "D" LOC = "P67";
+NET "item1" LOC = "P65";
+NET "item2" LOC = "P71";
+NET "push" LOC = "P45";
+
+NET "Q[3]" LOC = "P191";
+NET "Q[2]" LOC = "P196";
+NET "Q[1]" LOC = "P198";
+NET "Q[0]" LOC = "P200";
+
+NET "clk" LOC = "P68";
+
+NET "clk" CLOCK_DEDICATED_ROUTE=FALSE;

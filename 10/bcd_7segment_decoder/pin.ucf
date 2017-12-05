@@ -1,0 +1,12 @@
+NET "bcd[3]" LOC = "P34";
+NET "bcd[2]" LOC = "P35";
+NET "bcd[1]" LOC = "P37";
+NET "bcd[0]" LOC = "P36";
+
+NET "a" LOC = "P176";
+NET "b" LOC = "P178";
+NET "c" LOC = "P181";
+NET "d" LOC = "P182";
+NET "e" LOC = "P184";
+NET "f" LOC = "P185";
+NET "g" LOC = "P187";

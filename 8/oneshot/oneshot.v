@@ -1,0 +1,53 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    14:16:08 10/20/2014 
+// Design Name: 
+// Module Name:    oneshot 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module oneshot(ln0, ln1, clk, reset, dataout
+    );
+input ln0, ln1, clk, reset;
+output reg [3:0] dataout;
+reg lnt0, lnt1,l0,l1,ll0,ll1;
+
+always @(posedge clk)
+begin
+	if (reset) dataout = 4'b0000;
+	else if (lnt0) dataout = {1'b0, dataout[3:1]};
+	else if (lnt1) dataout = {1'b1, dataout[3:1]};
+	else dataout = dataout;
+end
+
+always @(posedge clk)
+begin
+	l0<=ln0;
+	l1<=ln1;
+end
+
+always @(posedge clk)
+begin
+	ll0<=l0;
+	ll1<=l1;
+end
+
+always @(posedge clk)
+begin
+	lnt0<=(l0&(~ll0));
+	lnt1<=(l1&(~ll1));
+end
+
+endmodule

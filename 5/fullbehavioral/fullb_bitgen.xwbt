@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\xilinx\5\fullbehavioral\fullb.ncd
+OUTFILE=D:\xilinx\5\fullbehavioral\fullb.bit
+FAMILY=Spartan3
+PART=xc3s200-4pq208
+WORKINGDIR=D:\xilinx\5\fullbehavioral
+LICENSE=WebPack
+USER_INFO=210823755_0_0_213

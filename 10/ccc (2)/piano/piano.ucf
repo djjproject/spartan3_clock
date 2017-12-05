@@ -1,0 +1,21 @@
+net "resetn" loc = "p57";
+net "clk" loc = "p79";
+
+net "piezo" loc = "p51";
+
+net "c3" loc = "p63";
+net "d" loc = "p67";
+net "e" loc = "p65";
+net "f" loc = "p71";
+net "g" loc = "p68";
+net "a" loc = "p74";
+net "b" loc = "p50";
+net "c4" loc = "p58";
+
+net "s1" loc = "p176";
+net "s2" loc = "p178";
+net "s3" loc = "p181";
+net "s4" loc = "p182";
+net "s5" loc = "p184";
+net "s6" loc = "p185";
+net "s7" loc = "p187";

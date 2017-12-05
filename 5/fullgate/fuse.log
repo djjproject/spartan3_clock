@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib simprims_ver -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/xilinx/5/fullgate/fullgate_isim_par.exe -prj D:/xilinx/5/fullgate/fullgate_par.prj work.fullgate work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/xilinx/5/fullgate/netgen/par/full_timesim.v" into library work
+Analyzing Verilog file "D:/xilinx/5/fullgate/fullgate.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module X_IPAD
+Compiling module X_BUF
+Compiling module X_OPAD
+Compiling module X_OBUF
+Compiling module X_LUT4(INIT=16'b1001011010010110...
+Compiling module X_ONE
+Compiling module full
+Compiling module fullgate
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable D:/xilinx/5/fullgate/fullgate_isim_par.exe
+Fuse Memory Usage: 28748 KB
+Fuse CPU Usage: 577 ms

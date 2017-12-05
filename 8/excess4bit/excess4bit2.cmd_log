@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/xilinx/8/excess4bit/excess4bit2.xst" -ofn "D:/xilinx/8/excess4bit/excess4bit2.syr" 
+xst -intstyle ise -ifn "D:/xilinx/8/excess4bit/excess4bit2.xst" -ofn "D:/xilinx/8/excess4bit/excess4bit2.syr" 
+xst -intstyle ise -ifn "D:/xilinx/8/excess4bit/excess4bit2.xst" -ofn "D:/xilinx/8/excess4bit/excess4bit2.syr" 
+xst -intstyle ise -ifn "D:/xilinx/8/excess4bit/excess4bit2.xst" -ofn "D:/xilinx/8/excess4bit/excess4bit2.syr" 

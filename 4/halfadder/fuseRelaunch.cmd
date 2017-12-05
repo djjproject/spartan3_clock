@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/xilinx/halfadder/halfadder_halfadder_sch_tb_isim_beh.exe" -prj "D:/xilinx/halfadder/halfadder_halfadder_sch_tb_beh.prj" "work.halfadder_halfadder_sch_tb" "work.glbl" 

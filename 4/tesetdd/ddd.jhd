@@ -1,0 +1,5 @@
+MODULE ddd
+	SUBMODULE fulladder
+		INSTANCE XLXI_1
+	SUBMODULE fulladder
+		INSTANCE XLXI_2

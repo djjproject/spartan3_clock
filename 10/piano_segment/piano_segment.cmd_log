@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/xilinx/10/piano_segment/piano_segment.xst" -ofn "D:/xilinx/10/piano_segment/piano_segment.syr" 
+xst -intstyle ise -ifn "D:/xilinx/10/piano_segment/piano_segment.xst" -ofn "D:/xilinx/10/piano_segment/piano_segment.syr" 
+xst -intstyle ise -ifn "D:/xilinx/10/piano_segment/piano_segment.xst" -ofn "D:/xilinx/10/piano_segment/piano_segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xa3s200-pqg208-4 piano_segment.ngc piano_segment.ngd  
+map -intstyle ise -p xa3s200-pqg208-4 -cm area -ir off -pr off -c 100 -o piano_segment_map.ncd piano_segment.ngd piano_segment.pcf 
+par -w -intstyle ise -ol high -t 1 piano_segment_map.ncd piano_segment.ncd piano_segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml piano_segment.twx piano_segment.ncd -o piano_segment.twr piano_segment.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f piano_segment.ut piano_segment.ncd 

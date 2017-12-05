@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3 -refsym fulladder D:/xilinx/fulladder/fulladder.sch D:/xilinx/sddfsdf/fulladder.sym 

@@ -1,0 +1,4 @@
+net "reset" loc = "P57";
+net "clk" loc = "P79";
+
+net "piezo" loc = "P51";

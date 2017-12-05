@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\UOS\Xilinx\oneshot\oneshot.ncd
+OUTFILE=C:\Users\UOS\Xilinx\oneshot\oneshot.bit
+FAMILY=Automotive Spartan3
+PART=xa3s200-4pqg208
+WORKINGDIR=C:\Users\UOS\Xilinx\oneshot
+LICENSE=WebPack
+USER_INFO=210940403_0_0_318

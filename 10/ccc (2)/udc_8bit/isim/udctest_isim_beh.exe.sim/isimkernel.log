@@ -1,0 +1,29 @@
+Command line:
+   udctest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49644
+
+Mon Oct 27 14:45:29 2014
+
+
+ Elaboration Time: 0.031201 sec
+
+ Current Memory Usage: 668.533 Meg
+
+ Total Signals          : 19
+ Total Nets             : 33
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 133
+Total Line Count : 39
+
+ Total Simulation Time: 0.062401 sec
+
+ Current Memory Usage: 983.106 Meg
+
+Mon Oct 27 14:46:28 2014
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\UOS\Xilinx\9\atm\atm.ncd
+OUTFILE=C:\Users\UOS\Xilinx\9\atm\atm.bit
+FAMILY=Automotive Spartan3
+PART=xa3s200-4pqg208
+WORKINGDIR=C:\Users\UOS\Xilinx\9\atm
+LICENSE=WebPack
+USER_INFO=210940403_0_0_318

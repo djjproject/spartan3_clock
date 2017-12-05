@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/xilinx/9/oneshotmodule/oneshot.xst" -ofn "D:/xilinx/9/oneshotmodule/oneshot.syr" 
+xst -intstyle ise -ifn "D:/xilinx/9/oneshotmodule/oneshot.xst" -ofn "D:/xilinx/9/oneshotmodule/oneshot.syr" 
+xst -intstyle ise -ifn "D:/xilinx/9/oneshotmodule/oneshot.xst" -ofn "D:/xilinx/9/oneshotmodule/oneshot.syr" 
+xst -intstyle ise -ifn "D:/xilinx/9/oneshotmodule/oneshot.xst" -ofn "D:/xilinx/9/oneshotmodule/oneshot.syr" 

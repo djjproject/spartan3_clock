@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/xilinx/5/fullgate/fullgate_isim_par.exe" -prj "D:/xilinx/5/fullgate/fullgate_par.prj" "work.fullgate" "work.glbl" 

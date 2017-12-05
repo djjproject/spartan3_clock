@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/data/home/gary/piano/piano_test_isim_beh.exe" -prj "/data/home/gary/piano/piano_test_beh.prj" "work.piano_test" "work.glbl" 

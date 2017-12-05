@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/10/bcd_7segment_decoder/segment.xst" -ofn "C:/Xilinx/xilinx/10/bcd_7segment_decoder/segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-pq208-4 segment.ngc segment.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o segment_map.ncd segment.ngd segment.pcf 
+par -w -intstyle ise -ol high -t 1 segment_map.ncd segment.ncd segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml segment.twx segment.ncd -o segment.twr segment.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f segment.ut segment.ncd 

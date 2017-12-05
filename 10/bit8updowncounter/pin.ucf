@@ -1,0 +1,23 @@
+NET "clk" LOC = "P79";
+NET "clken" LOC = "P63";
+NET "reset" LOC = "P57";
+NET "updown" LOC = "P67";
+NET "endata" LOC = "P65";
+
+NET "data[7]" LOC = "P34";
+NET "data[6]" LOC = "P35";
+NET "data[5]" LOC = "P37";
+NET "data[4]" LOC = "P36";
+NET "data[3]" LOC = "P40";
+NET "data[2]" LOC = "P39";
+NET "data[1]" LOC = "P43";
+NET "data[0]" LOC = "P42";
+
+NET "countout[7]" LOC = "P191";
+NET "countout[6]" LOC = "P196";
+NET "countout[5]" LOC = "P198";
+NET "countout[4]" LOC = "P200";
+NET "countout[3]" LOC = "P204";
+NET "countout[2]" LOC = "P10";
+NET "countout[1]" LOC = "P12";
+NET "countout[0]" LOC = "P15";

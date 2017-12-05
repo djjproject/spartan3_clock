@@ -1,0 +1,29 @@
+Command line:
+   piano_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50560
+
+Mon Nov  3 05:18:51 2014
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 196.178 Meg
+
+ Total Signals          : 25
+ Total Nets             : 24
+ Total Signal Drivers   : 16
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 20
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 147
+Total Line Count : 106
+
+ Total Simulation Time: 0.07 sec
+
+ Current Memory Usage: 271.679 Meg
+
+Mon Nov  3 05:20:02 2014
+

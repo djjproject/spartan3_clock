@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/xilinx/fourbitripplecarryadder/fourbitadder.xst" -ofn "D:/xilinx/fourbitripplecarryadder/fourbitadder.syr" 
+xst -intstyle ise -ifn "D:/xilinx/fourbitripplecarryadder/fourbitadder.xst" -ofn "D:/xilinx/fourbitripplecarryadder/fourbitadder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fourbitadder.ucf -p xc3s200-pq208-4 fourbitadder.ngc fourbitadder.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o fourbitadder_map.ncd fourbitadder.ngd fourbitadder.pcf 
+par -w -intstyle ise -ol high -t 1 fourbitadder_map.ncd fourbitadder.ncd fourbitadder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fourbitadder.twx fourbitadder.ncd -o fourbitadder.twr fourbitadder.pcf -ucf fourbitadder.ucf 
+bitgen -intstyle ise -f fourbitadder.ut fourbitadder.ncd 
+xst -intstyle ise -ifn "D:/xilinx/fourbitripplecarryadder/fourbitadder.xst" -ofn "D:/xilinx/fourbitripplecarryadder/fourbitadder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fourbitadder.ucf -p xc3s200-pq208-4 fourbitadder.ngc fourbitadder.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o fourbitadder_map.ncd fourbitadder.ngd fourbitadder.pcf 
+par -w -intstyle ise -ol high -t 1 fourbitadder_map.ncd fourbitadder.ncd fourbitadder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fourbitadder.twx fourbitadder.ncd -o fourbitadder.twr fourbitadder.pcf -ucf fourbitadder.ucf 
+bitgen -intstyle ise -f fourbitadder.ut fourbitadder.ncd 

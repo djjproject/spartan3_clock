@@ -1,0 +1,2 @@
+verilog work "netgen/map/vend_map.v"
+verilog work "test.v"

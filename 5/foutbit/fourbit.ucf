@@ -1,0 +1,14 @@
+NET "cin" LOC = "P63";
+NET "a0" LOC = "P34";
+NET "b0" LOC = "P40";
+NET "a1" LOC = "P35";
+NET "b1" LOC = "P39";
+NET "a2" LOC = "P37";
+NET "b2" LOC = "P43";
+NET "a3" LOC = "P36";
+NET "b3" LOC = "P42";
+NET "cout" LOC = "P191";
+NET "s0" LOC = "P196";
+NET "s1" LOC = "P198";
+NET "s2" LOC = "P200";
+NET "s3" LOC = "P204";

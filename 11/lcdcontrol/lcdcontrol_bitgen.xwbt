@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\xilinx\11\lcdcontrol\lcdcontrol.ncd
+OUTFILE=D:\xilinx\11\lcdcontrol\lcdcontrol.bit
+FAMILY=Automotive Spartan3
+PART=xa3s200-4pqg208
+WORKINGDIR=D:\xilinx\11\lcdcontrol
+LICENSE=WebPack
+USER_INFO=210823755_0_0_213

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Xilinx/xilinx/5/foutbit/fourtbittest_isim_beh.exe" -prj "C:/Xilinx/xilinx/5/foutbit/fourtbittest_beh.prj" "work.fourtbittest" "work.glbl" 

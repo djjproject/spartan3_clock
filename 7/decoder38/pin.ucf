@@ -1,0 +1,12 @@
+NET "a" LOC = "P63";
+NET "b" LOC = "P67";
+NET "c" LOC = "P65";
+
+NET "o[7]" LOC = "P191";
+NET "o[6]" LOC = "P196";
+NET "o[5]" LOC = "P198";
+NET "o[4]" LOC = "P200";
+NET "o[3]" LOC = "P204";
+NET "o[2]" LOC = "P10";
+NET "o[1]" LOC = "P12";
+NET "o[0]" LOC = "P15";

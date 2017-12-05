@@ -1,0 +1,2 @@
+verilog work "netgen/par/full_timesim.v"
+verilog work "fullgate.v"

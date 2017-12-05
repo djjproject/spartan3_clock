@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/ccc/udc_8bit/udctest_isim_beh.exe" -prj "C:/Users/ccc/udc_8bit/udctest_beh.prj" "work.udctest" "work.glbl" 

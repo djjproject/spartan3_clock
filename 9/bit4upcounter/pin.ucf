@@ -1,0 +1,18 @@
+NET "clk" LOC = "P79";
+
+NET "clken" LOC = "P63";
+NET "loaden" LOC = "P67";
+NET "up" LOC = "P65";
+NET "reset" LOC = "P57";
+
+NET "load[3]" LOC = "P34";
+NET "load[2]" LOC = "P35";
+NET "load[1]" LOC = "P37";
+NET "load[0]" LOC = "P36";
+
+NET "countout[3]" LOC = "P191";
+NET "countout[2]" LOC = "P196";
+NET "countout[1]" LOC = "P198";
+NET "countout[0]" LOC = "P200";
+
+NET "clken" CLOCK_DEDICATED_ROUTE = FALSE;

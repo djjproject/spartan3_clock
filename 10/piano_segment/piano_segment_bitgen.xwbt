@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\xilinx\10\piano_segment\piano_segment.ncd
+OUTFILE=D:\xilinx\10\piano_segment\piano_segment.bit
+FAMILY=Automotive Spartan3
+PART=xa3s200-4pqg208
+WORKINGDIR=D:\xilinx\10\piano_segment
+LICENSE=WebPack
+USER_INFO=210823755_0_0_213

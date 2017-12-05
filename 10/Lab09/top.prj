@@ -1,0 +1,4 @@
+verilog work "text_lcd.v"
+verilog work "counter_bcd_updown.v"
+verilog work "clk_divisor.v"
+verilog work "top.v"

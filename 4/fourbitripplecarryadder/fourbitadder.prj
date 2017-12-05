@@ -1,0 +1,3 @@
+verilog work "halfadder.vf"
+verilog work "fulladder.vf"
+verilog work "fourbitadder.vf"

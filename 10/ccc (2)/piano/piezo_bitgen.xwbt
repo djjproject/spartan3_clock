@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ccc\piano\piezo.ncd
+OUTFILE=C:\Users\ccc\piano\piezo.bit
+FAMILY=Spartan3
+PART=xc3s200-4pq208
+WORKINGDIR=C:\Users\ccc\piano
+LICENSE=WebPack
+USER_INFO=210940403_0_0_318

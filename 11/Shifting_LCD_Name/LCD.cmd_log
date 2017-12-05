@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/xilinx/11/Shifting_LCD_Name/LCD.xst" -ofn "D:/xilinx/11/Shifting_LCD_Name/LCD.syr" 

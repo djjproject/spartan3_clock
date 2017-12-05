@@ -1,0 +1,83 @@
+ISim log file
+Running: D:\11\Ji_Hyunwook\Xilinx\Projects\Lab09\tb_text_lcd_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/tb_text_lcd_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1997115 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/text_lcd.v" Line 125
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 1275525 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/text_lcd.v" Line 126
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 2121920 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/tb_text_lcd.v" Line 66
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 2200045 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/text_lcd.v" Line 143
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 2458795 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/text_lcd.v" Line 119
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 2389105 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/text_lcd.v" Line 112
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 4961530 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/text_lcd.v" Line 186
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 2261095 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/tb_text_lcd.v" Line 66
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 5051780 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/text_lcd.v" Line 185
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 75065310 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/tb_text_lcd.v" Line 66
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 2776485 ns : File "D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/text_lcd.v" Line 116

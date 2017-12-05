@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Mon Nov 10 15:15:16 2014
+# Process ID: 4972
+# Log file: C:/Users/UOS/Desktop/Lab09/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/UOS/Desktop/Lab09/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/UOS/Desktop/Lab09/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P79 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  cs_down]]
+startgroup
+set_property package_pin P67 [get_ports cs_up]
+endgroup
+startgroup
+set_property package_pin P68 [get_ports cs_left]
+endgroup
+startgroup
+set_property package_pin P74 [get_ports cs_home]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports cs_right]
+endgroup
+startgroup
+set_property package_pin P62 [get_ports cs_down]
+endgroup
+startgroup
+set_property package_pin P71 [get_ports up]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports down]
+endgroup
+startgroup
+set_property package_pin P154 [get_ports lcd_e]
+endgroup
+startgroup
+set_property package_pin P156 [get_ports lcd_rs]
+endgroup
+startgroup
+set_property package_pin P155 [get_ports lcd_rw]
+endgroup
+startgroup
+set_property package_pin P57 [get_ports reset]
+endgroup
+set_property package_pin "" [get_ports [list  {lcd_data[7]}]]
+startgroup
+set_property package_pin P152 [get_ports {lcd_data[0]}]
+endgroup
+startgroup
+set_property package_pin P150 [get_ports {lcd_data[1]}]
+endgroup
+startgroup
+set_property package_pin P149 [get_ports {lcd_data[2]}]
+endgroup
+startgroup
+set_property package_pin P148 [get_ports {lcd_data[3]}]
+endgroup
+startgroup
+set_property package_pin P147 [get_ports {lcd_data[4]}]
+endgroup
+startgroup
+set_property package_pin P146 [get_ports {lcd_data[5]}]
+endgroup
+startgroup
+set_property package_pin P144 [get_ports {lcd_data[6]}]
+endgroup
+startgroup
+set_property package_pin P143 [get_ports {lcd_data[7]}]
+endgroup
+save_design

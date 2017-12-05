@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/11/Ji_Hyunwook/Xilinx/Projects/Lab09/tb_text_lcd_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_text_lcd" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/tb_text_lcd/uut/clk_100khz" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_100khz</obj_property>
+      <obj_property name="ObjectShortName">clk_100khz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt[12:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/lcd_e" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lcd_e</obj_property>
+      <obj_property name="ObjectShortName">lcd_e</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus36" type="vbus" db_ref_id="1">
+      <obj_property name="label">command</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_text_lcd/lcd_rs" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lcd_rs</obj_property>
+         <obj_property name="ObjectShortName">lcd_rs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_text_lcd/lcd_rw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lcd_rw</obj_property>
+         <obj_property name="ObjectShortName">lcd_rw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_text_lcd/lcd_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">lcd_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_data[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus16" type="vbus" db_ref_id="1">
+      <obj_property name="label">cursor</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_text_lcd/cs_right" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cs_right</obj_property>
+         <obj_property name="ObjectShortName">cs_right</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_text_lcd/cs_left" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cs_left</obj_property>
+         <obj_property name="ObjectShortName">cs_left</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_text_lcd/cs_up" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cs_up</obj_property>
+         <obj_property name="ObjectShortName">cs_up</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_text_lcd/cs_down" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cs_down</obj_property>
+         <obj_property name="ObjectShortName">cs_down</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_text_lcd/cs_home" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cs_home</obj_property>
+         <obj_property name="ObjectShortName">cs_home</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus17" type="vbus" db_ref_id="1">
+      <obj_property name="label">cnt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_text_lcd/cnt_high" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cnt_high[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_high[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_text_lcd/cnt_low" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cnt_low[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_low[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cnt_max" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt_max[12:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_max[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_right_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_right_reg</obj_property>
+      <obj_property name="ObjectShortName">cs_right_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_left_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_left_reg</obj_property>
+      <obj_property name="ObjectShortName">cs_left_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_up_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_up_reg</obj_property>
+      <obj_property name="ObjectShortName">cs_up_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_down_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_down_reg</obj_property>
+      <obj_property name="ObjectShortName">cs_down_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_home_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_home_reg</obj_property>
+      <obj_property name="ObjectShortName">cs_home_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_right_trig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_right_trig</obj_property>
+      <obj_property name="ObjectShortName">cs_right_trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_left_trig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_left_trig</obj_property>
+      <obj_property name="ObjectShortName">cs_left_trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_up_trig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_up_trig</obj_property>
+      <obj_property name="ObjectShortName">cs_up_trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_down_trig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_down_trig</obj_property>
+      <obj_property name="ObjectShortName">cs_down_trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_text_lcd/uut/cs_home_trig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_home_trig</obj_property>
+      <obj_property name="ObjectShortName">cs_home_trig</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/10/piezo/piezo.xst" -ofn "C:/Xilinx/xilinx/10/piezo/piezo.syr" 

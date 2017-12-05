@@ -1,0 +1,428 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: bit8updown.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "bit8updown.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "bit8updown"
+Output Format                      : NGC
+Target Device                      : xa3s200-4-pqg208
+
+---- Source Options
+Top Module Name                    : bit8updown
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "bit8updown.v" in library work
+Module <bit8updown> compiled
+No errors in compilation
+Analysis of file <"bit8updown.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <bit8updown> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <bit8updown>.
+Module <bit8updown> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <bit8updown>.
+    Related source file is "bit8updown.v".
+    Found 9-bit updown counter for signal <countout>.
+    Found 1-bit register for signal <clkt>.
+    Found 1-bit register for signal <clkt1>.
+    Found 1-bit register for signal <clkt2>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   3 D-type flip-flop(s).
+Unit <bit8updown> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 9-bit updown counter                                  : 1
+# Registers                                            : 3
+ 1-bit register                                        : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 9-bit updown counter                                  : 1
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <bit8updown> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block bit8updown, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : bit8updown.ngr
+Top Level Output File Name         : bit8updown
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 23
+
+Cell Usage :
+# BELS                             : 39
+#      INV                         : 4
+#      LUT2                        : 1
+#      LUT4                        : 9
+#      MULT_AND                    : 8
+#      MUXCY                       : 8
+#      XORCY                       : 9
+# FlipFlops/Latches                : 12
+#      FD                          : 2
+#      FDC                         : 9
+#      FDR                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 22
+#      IBUF                        : 13
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa3s200pqg208-4 
+
+ Number of Slices:                        7  out of   1920     0%  
+ Number of Slice Flip Flops:             12  out of   3840     0%  
+ Number of 4 input LUTs:                 14  out of   3840     0%  
+ Number of IOs:                          23
+ Number of bonded IOBs:                  23  out of    141    16%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 3     |
+clkt                               | NONE(countout_0)       | 9     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset_inv(reset_inv1_INV_0:O)      | NONE(countout_0)       | 9     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.229ns (Maximum Frequency: 236.463MHz)
+   Minimum input arrival time before clock: 6.047ns
+   Maximum output required time after clock: 7.241ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.975ns (frequency: 251.572MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               3.975ns (Levels of Logic = 1)
+  Source:            clkt1 (FF)
+  Destination:       clkt (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clkt1 to clkt
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.720   0.877  clkt1 (clkt1)
+     INV:I->O              1   0.551   0.801  clkt1_inv1_INV_0 (clkt1_inv)
+     FDR:R                     1.026          clkt
+    ----------------------------------------
+    Total                      3.975ns (2.297ns logic, 1.678ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkt'
+  Clock period: 4.229ns (frequency: 236.463MHz)
+  Total number of paths / destination ports: 81 / 9
+-------------------------------------------------------------------------
+Delay:               4.229ns (Levels of Logic = 10)
+  Source:            countout_0 (FF)
+  Destination:       countout_8 (FF)
+  Source Clock:      clkt rising
+  Destination Clock: clkt rising
+
+  Data Path: countout_0 to countout_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.720   0.903  countout_0 (countout_0)
+     LUT4:I3->O            1   0.551   0.000  Mcount_countout_lut<0> (Mcount_countout_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Mcount_countout_cy<0> (Mcount_countout_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<1> (Mcount_countout_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<2> (Mcount_countout_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<3> (Mcount_countout_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<4> (Mcount_countout_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<5> (Mcount_countout_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<6> (Mcount_countout_cy<6>)
+     MUXCY:CI->O           0   0.064   0.000  Mcount_countout_cy<7> (Mcount_countout_cy<7>)
+     XORCY:CI->O           1   0.904   0.000  Mcount_countout_xor<8> (Mcount_countout9)
+     FDC:D                     0.203          countout_8
+    ----------------------------------------
+    Total                      4.229ns (3.326ns logic, 0.903ns route)
+                                       (78.6% logic, 21.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.825ns (Levels of Logic = 1)
+  Source:            clken (PAD)
+  Destination:       clkt1 (FF)
+  Destination Clock: clk rising
+
+  Data Path: clken to clkt1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.801  clken_IBUF (clken_IBUF)
+     FD:D                      0.203          clkt1
+    ----------------------------------------
+    Total                      1.825ns (1.024ns logic, 0.801ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkt'
+  Total number of paths / destination ports: 189 / 9
+-------------------------------------------------------------------------
+Offset:              6.047ns (Levels of Logic = 12)
+  Source:            endata (PAD)
+  Destination:       countout_8 (FF)
+  Destination Clock: clkt rising
+
+  Data Path: endata to countout_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.821   0.877  endata_IBUF (endata_IBUF)
+     INV:I->O              9   0.551   1.192  endata_inv1_INV_0 (endata_inv)
+     LUT4:I2->O            1   0.551   0.000  Mcount_countout_lut<0> (Mcount_countout_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Mcount_countout_cy<0> (Mcount_countout_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<1> (Mcount_countout_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<2> (Mcount_countout_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<3> (Mcount_countout_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<4> (Mcount_countout_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<5> (Mcount_countout_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_countout_cy<6> (Mcount_countout_cy<6>)
+     MUXCY:CI->O           0   0.064   0.000  Mcount_countout_cy<7> (Mcount_countout_cy<7>)
+     XORCY:CI->O           1   0.904   0.000  Mcount_countout_xor<8> (Mcount_countout9)
+     FDC:D                     0.203          countout_8
+    ----------------------------------------
+    Total                      6.047ns (3.978ns logic, 2.069ns route)
+                                       (65.8% logic, 34.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkt'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              7.241ns (Levels of Logic = 1)
+  Source:            countout_8 (FF)
+  Destination:       countout<8> (PAD)
+  Source Clock:      clkt rising
+
+  Data Path: countout_8 to countout<8>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.720   0.877  countout_8 (countout_8)
+     OBUF:I->O                 5.644          countout_8_OBUF (countout<8>)
+    ----------------------------------------
+    Total                      7.241ns (6.364ns logic, 0.877ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.38 secs
+ 
+--> 
+
+Total memory usage is 251424 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

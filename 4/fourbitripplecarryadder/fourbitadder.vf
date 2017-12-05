@@ -1,0 +1,77 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : fourbitadder.vf
+// /___/   /\     Timestamp : 09/20/2014 19:31:48
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3 -verilog D:/xilinx/fourbitripplecarryadder/fourbitadder.vf -w D:/xilinx/fourbitripplecarryadder/fourbitadder.sch
+//Design Name: fourbitadder
+//Device: spartan3
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module fourbitadder(A0, 
+                    A1, 
+                    A2, 
+                    A3, 
+                    B0, 
+                    B1, 
+                    B2, 
+                    B3, 
+                    C_in, 
+                    C_out, 
+                    S0, 
+                    S1, 
+                    S2, 
+                    S3);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+    input B0;
+    input B1;
+    input B2;
+    input B3;
+    input C_in;
+   output C_out;
+   output S0;
+   output S1;
+   output S2;
+   output S3;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   
+   fulladder  XLXI_1 (.A(A3), 
+                     .B(B3), 
+                     .C_in(XLXN_3), 
+                     .C_out(C_out), 
+                     .S(S3));
+   fulladder  XLXI_2 (.A(A2), 
+                     .B(B2), 
+                     .C_in(XLXN_2), 
+                     .C_out(XLXN_3), 
+                     .S(S2));
+   fulladder  XLXI_3 (.A(A1), 
+                     .B(B1), 
+                     .C_in(XLXN_1), 
+                     .C_out(XLXN_2), 
+                     .S(S1));
+   fulladder  XLXI_4 (.A(A0), 
+                     .B(B0), 
+                     .C_in(C_in), 
+                     .C_out(XLXN_1), 
+                     .S(S0));
+endmodule

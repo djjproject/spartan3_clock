@@ -1,0 +1,413 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: piezo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "piezo.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "piezo"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-pq208
+
+---- Source Options
+Top Module Name                    : piezo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "piano.v" in library work
+Module <piezo> compiled
+No errors in compilation
+Analysis of file <"piezo.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <piezo> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <piezo>.
+Module <piezo> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <piezo>.
+    Related source file is "piano.v".
+    Found 1-bit register for signal <buff>.
+    Found 33-bit comparator less for signal <buff$cmp_lt0000> created at line 31.
+    Found 33-bit comparator less for signal <buff$cmp_lt0001> created at line 43.
+    Found 33-bit comparator less for signal <buff$cmp_lt0002> created at line 54.
+    Found 33-bit comparator less for signal <buff$cmp_lt0003> created at line 66.
+    Found 33-bit comparator less for signal <buff$cmp_lt0004> created at line 78.
+    Found 33-bit comparator less for signal <buff$cmp_lt0005> created at line 90.
+    Found 33-bit comparator less for signal <buff$cmp_lt0006> created at line 102.
+    Found 33-bit comparator less for signal <buff$cmp_lt0007> created at line 114.
+    Found 32-bit register for signal <cnt_sound>.
+    Found 33-bit comparator greatequal for signal <cnt_sound$cmp_ge0000> created at line 31.
+    Found 33-bit comparator greatequal for signal <cnt_sound$cmp_ge0001> created at line 43.
+    Found 33-bit comparator greatequal for signal <cnt_sound$cmp_ge0002> created at line 54.
+    Found 33-bit comparator greatequal for signal <cnt_sound$cmp_ge0003> created at line 66.
+    Found 33-bit comparator greatequal for signal <cnt_sound$cmp_ge0004> created at line 78.
+    Found 33-bit comparator greatequal for signal <cnt_sound$cmp_ge0005> created at line 90.
+    Found 33-bit comparator greatequal for signal <cnt_sound$cmp_ge0006> created at line 102.
+    Found 33-bit comparator greatequal for signal <cnt_sound$cmp_ge0007> created at line 114.
+    Found 32-bit adder for signal <cnt_sound$mux0000>.
+    Found 7-bit register for signal <decode>.
+    Summary:
+	inferred  40 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  16 Comparator(s).
+Unit <piezo> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 32-bit register                                       : 1
+ 7-bit register                                        : 1
+# Comparators                                          : 16
+ 33-bit comparator greatequal                          : 8
+ 33-bit comparator less                                : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+# Comparators                                          : 16
+ 33-bit comparator greatequal                          : 8
+ 33-bit comparator less                                : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <piezo> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block piezo, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : piezo.ngr
+Top Level Output File Name         : piezo
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 321
+#      GND                         : 1
+#      INV                         : 26
+#      LUT1                        : 39
+#      LUT2                        : 15
+#      LUT3                        : 11
+#      LUT4                        : 64
+#      LUT4_D                      : 2
+#      LUT4_L                      : 2
+#      MUXCY                       : 125
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 40
+#      FDR                         : 37
+#      FDRE                        : 1
+#      FDRS                        : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 9
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200pq208-4 
+
+ Number of Slices:                       83  out of   1920     4%  
+ Number of Slice Flip Flops:             33  out of   3840     0%  
+ Number of 4 input LUTs:                159  out of   3840     4%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    141    12%  
+    IOB Flip Flops:                       7
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 40    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.745ns (Maximum Frequency: 85.142MHz)
+   Minimum input arrival time before clock: 8.944ns
+   Maximum output required time after clock: 7.241ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 11.745ns (frequency: 85.142MHz)
+  Total number of paths / destination ports: 16198 / 66
+-------------------------------------------------------------------------
+Delay:               11.745ns (Levels of Logic = 16)
+  Source:            cnt_sound_2 (FF)
+  Destination:       cnt_sound_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cnt_sound_2 to cnt_sound_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              7   0.720   1.405  cnt_sound_2 (cnt_sound_2)
+     LUT1:I0->O            1   0.551   0.000  Mcompar_buff_cmp_lt0001_cy<0>_5_rt (Mcompar_buff_cmp_lt0001_cy<0>_5_rt)
+     MUXCY:S->O            1   0.500   0.000  Mcompar_buff_cmp_lt0001_cy<0>_5 (Mcompar_buff_cmp_lt0001_cy<0>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<1>_5 (Mcompar_buff_cmp_lt0001_cy<1>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<2>_5 (Mcompar_buff_cmp_lt0001_cy<2>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<3>_5 (Mcompar_buff_cmp_lt0001_cy<3>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<4>_5 (Mcompar_buff_cmp_lt0001_cy<4>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<5>_5 (Mcompar_buff_cmp_lt0001_cy<5>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<6>_5 (Mcompar_buff_cmp_lt0001_cy<6>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<7>_5 (Mcompar_buff_cmp_lt0001_cy<7>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<8>_5 (Mcompar_buff_cmp_lt0001_cy<8>6)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_buff_cmp_lt0001_cy<9>_5 (Mcompar_buff_cmp_lt0001_cy<9>6)
+     MUXCY:CI->O           1   0.303   0.827  Mcompar_buff_cmp_lt0001_cy<10>_4 (Mcompar_buff_cmp_lt0001_cy<10>5)
+     LUT4:I3->O            1   0.551   0.827  buff_not0001214 (buff_not0001214)
+     LUT4_D:I3->LO         1   0.551   0.126  buff_not0001236 (N21)
+     LUT4:I3->O            1   0.551   0.827  buff_not0001276 (buff_not0001_bdd0)
+     LUT4:I3->O           32   0.551   1.853  cnt_sound_or0000161 (cnt_sound_or0000)
+     FDR:R                     1.026          cnt_sound_0
+    ----------------------------------------
+    Total                     11.745ns (5.880ns logic, 5.865ns route)
+                                       (50.1% logic, 49.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 638 / 51
+-------------------------------------------------------------------------
+Offset:              8.944ns (Levels of Logic = 5)
+  Source:            c4 (PAD)
+  Destination:       cnt_sound_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: c4 to cnt_sound_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.821   1.260  c4_IBUF (c4_IBUF)
+     LUT4:I0->O            1   0.551   0.827  buff_not0001214 (buff_not0001214)
+     LUT4_D:I3->LO         1   0.551   0.126  buff_not0001236 (N21)
+     LUT4:I3->O            1   0.551   0.827  buff_not0001276 (buff_not0001_bdd0)
+     LUT4:I3->O           32   0.551   1.853  cnt_sound_or0000161 (cnt_sound_or0000)
+     FDR:R                     1.026          cnt_sound_0
+    ----------------------------------------
+    Total                      8.944ns (4.051ns logic, 4.893ns route)
+                                       (45.3% logic, 54.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              7.241ns (Levels of Logic = 1)
+  Source:            buff (FF)
+  Destination:       piezo (PAD)
+  Source Clock:      clk rising
+
+  Data Path: buff to piezo
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.720   0.877  buff (buff)
+     OBUF:I->O                 5.644          piezo_OBUF (piezo)
+    ----------------------------------------
+    Total                      7.241ns (6.364ns logic, 0.877ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.12 secs
+ 
+--> 
+
+Total memory usage is 259164 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

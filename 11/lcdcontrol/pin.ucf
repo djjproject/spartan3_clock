@@ -1,0 +1,15 @@
+net "clk" loc = "p79";
+net "reset" loc = "p57";
+
+net "lcd_rs" loc = "p156";
+net "lcd_rw" loc = "p155";
+net "lcd_e" loc = "p154";
+
+net "lcd_data[7]" loc = "p143";
+net "lcd_data[6]" loc = "p144";
+net "lcd_data[5]" loc = "p146";
+net "lcd_data[4]" loc = "p147";
+net "lcd_data[3]" loc = "p148";
+net "lcd_data[2]" loc = "p149";
+net "lcd_data[1]" loc = "p150";
+net "lcd_data[0]" loc = "p152";

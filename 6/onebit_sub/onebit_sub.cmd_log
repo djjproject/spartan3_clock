@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/6/onebit_sub/onebit_sub.xst" -ofn "C:/Xilinx/xilinx/6/onebit_sub/onebit_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc onebit_sub.ucf -p xc3s200-pq208-4 onebit_sub.ngc onebit_sub.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc onebit_sub.ucf -p xc3s200-pq208-4 onebit_sub.ngc onebit_sub.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o onebit_sub_map.ncd onebit_sub.ngd onebit_sub.pcf 
+par -w -intstyle ise -ol high -t 1 onebit_sub_map.ncd onebit_sub.ncd onebit_sub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml onebit_sub.twx onebit_sub.ncd -o onebit_sub.twr onebit_sub.pcf -ucf onebit_sub.ucf 

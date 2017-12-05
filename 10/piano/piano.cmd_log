@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/xilinx/10/piano/piano.xst" -ofn "D:/xilinx/10/piano/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xa3s200-pqg208-4 piano.ngc piano.ngd  
+map -intstyle ise -p xa3s200-pqg208-4 -cm area -ir off -pr off -c 100 -o piano_map.ncd piano.ngd piano.pcf 
+par -w -intstyle ise -ol high -t 1 piano_map.ncd piano.ncd piano.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml piano.twx piano.ncd -o piano.twr piano.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f piano.ut piano.ncd 

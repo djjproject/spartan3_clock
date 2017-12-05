@@ -1,0 +1,23 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = P79;
+NET "cs_up" LOC = P67;
+NET "cs_left" LOC = P68;
+NET "cs_home" LOC = P74;
+NET "cs_right" LOC = P50;
+NET "cs_down" LOC = P62;
+NET "up" LOC = P71;
+NET "down" LOC = P58;
+NET "lcd_e" LOC = P154;
+NET "lcd_rs" LOC = P156;
+NET "lcd_rw" LOC = P155;
+NET "reset" LOC = P57;
+NET "lcd_data[0]" LOC = P152;
+NET "lcd_data[1]" LOC = P150;
+NET "lcd_data[2]" LOC = P149;
+NET "lcd_data[3]" LOC = P148;
+NET "lcd_data[4]" LOC = P147;
+NET "lcd_data[5]" LOC = P146;
+NET "lcd_data[6]" LOC = P144;
+NET "lcd_data[7]" LOC = P143;

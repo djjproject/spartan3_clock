@@ -1,0 +1,14 @@
+NET "cin" LOC = "P63";
+NET "a[3]" LOC = "P34";
+NET "b[3]" LOC = "P40";
+NET "a[2]" LOC = "P35";
+NET "b[2]" LOC = "P39";
+NET "a[1]" LOC = "P37";
+NET "b[1]" LOC = "P43";
+NET "a[0]" LOC = "P36";
+NET "b[0]" LOC = "P42";
+NET "cout" LOC = "P191";
+NET "sum[3]" LOC = "P196";
+NET "sum[2]" LOC = "P198";
+NET "sum[1]" LOC = "P200";
+NET "sum[0]" LOC = "P204";

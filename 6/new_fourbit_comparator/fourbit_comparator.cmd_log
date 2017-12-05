@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/xilinx/6/new_fourbit_comparator/fourbit_comparator.xst" -ofn "D:/xilinx/6/new_fourbit_comparator/fourbit_comparator.syr" 
+xst -intstyle ise -ifn "D:/xilinx/6/new_fourbit_comparator/fourbit_comparator.xst" -ofn "D:/xilinx/6/new_fourbit_comparator/fourbit_comparator.syr" 
+xst -intstyle ise -ifn "D:/xilinx/6/new_fourbit_comparator/fourbit_comparator.xst" -ofn "D:/xilinx/6/new_fourbit_comparator/fourbit_comparator.syr" 
+xst -intstyle ise -ifn "D:/xilinx/6/new_fourbit_comparator/fourbit_comparator.xst" -ofn "D:/xilinx/6/new_fourbit_comparator/fourbit_comparator.syr" 

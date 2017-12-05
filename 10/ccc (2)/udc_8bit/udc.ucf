@@ -1,0 +1,23 @@
+NET "in[3]" LOC = "P34";
+NET "in[2]" LOC = "P35";
+NET "in[1]" LOC = "P37";
+NET "in[0]" LOC = "P36";
+
+NET "cry" LOC = "P191";
+NET "brw" LOC = "P15";
+
+net "s1" loc = "p176";
+net "s2" loc = "p178";
+net "s3" loc = "p181";
+net "s4" loc = "p182";
+net "s5" loc = "p184";
+net "s6" loc = "p185";
+net "s7" loc = "p187";
+
+NET "clk" LOC = "P79";
+NET "resetn" LOC = "P57";
+NET "up" LOC = "P63";
+NET "down" LOC = "P67";
+NET "load" LOC = "P65";
+
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;

@@ -1,0 +1,16 @@
+net "CLK" loc = "p79";//CLK 1MHz
+net "RST" loc = "p57";//RST RESET
+
+net "LCD_RS" loc = "p156";//CLCD_RS
+net "LCD_RW" loc = "p155";//CLCD_RW
+net "LCD_E" loc = "p154";//CLCD_E
+
+net "LCD_DATA[7]" loc = "p143";//CLCD_D 0~7
+net "LCD_DATA[6]" loc = "p144";
+net "LCD_DATA[5]" loc = "p146";
+net "LCD_DATA[4]" loc = "p147";
+net "LCD_DATA[3]" loc = "p148";
+net "LCD_DATA[2]" loc = "p149";
+net "LCD_DATA[1]" loc = "p150";
+net "LCD_DATA[0]" loc = "p152";
+//2013440054 ¹Ú¼º¿ø

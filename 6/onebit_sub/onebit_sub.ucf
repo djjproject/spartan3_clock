@@ -1,0 +1,5 @@
+NET "borrow" LOC = "P63";
+NET "a" LOC = "P67";
+NET "b" LOC = "P65";
+NET "d" LOC = "P191";
+NET "borrowout" LOC = "P196";

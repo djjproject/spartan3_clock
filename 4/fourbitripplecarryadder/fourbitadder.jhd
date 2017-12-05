@@ -1,0 +1,9 @@
+MODULE fourbitadder
+	SUBMODULE fulladder
+		INSTANCE XLXI_1
+	SUBMODULE fulladder
+		INSTANCE XLXI_2
+	SUBMODULE fulladder
+		INSTANCE XLXI_3
+	SUBMODULE fulladder
+		INSTANCE XLXI_4

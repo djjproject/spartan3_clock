@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="fourgate.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="forbetest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="forbetest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="forbetest_isim_beh.wdb"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="forbetest_isim_par.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="forbetest_isim_par.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="forbetest_par.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="forbetest_stx_beh.prj"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fourbetest1_isim_par.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="fourbetest1_isim_par.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fourbetest1_par.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fourbetest1_stx_par.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fourbetest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fourbetest_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="fourgate.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="fourgate.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="fourgate.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="fourgate.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="fourgate.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="fourgate.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="fourgate.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="fourgate.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="fourgate.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="fourgate.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fourgate.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="fourgate.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="fourgate.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="fourgate.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="fourgate.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="fourgate.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="fourgate.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="fourgate.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="fourgate.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="fourgate_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="fourgate_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="fourgate_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="fourgate_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="fourgate_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="fourgate_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fourgate_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fourgate_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="fourgate_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="fourgate_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fourgate_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="fourgate_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="fourgate_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="fourgate_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fourgate_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/fourgate_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/fourgate_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/par/fourgate_timesim.v"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1411808753" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1411808753">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811092" xil_pn:in_ck="-2163651984579770189" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1411811092">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="forbetest.v"/>
+      <outfile xil_pn:name="fourgate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811097" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4186493183183223323" xil_pn:start_ts="1411811097">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811097" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1201288138566602851" xil_pn:start_ts="1411811097">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411667445" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6483364609863718744" xil_pn:start_ts="1411667445">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811097" xil_pn:in_ck="-2163651984579770189" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1411811097">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="forbetest.v"/>
+      <outfile xil_pn:name="fourgate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1412100310" xil_pn:in_ck="-2163651984579770189" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5403382708417478458" xil_pn:start_ts="1412100299">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="forbetest_beh.prj"/>
+      <outfile xil_pn:name="forbetest_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1412100312" xil_pn:in_ck="1779955137530293039" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6398783026753835369" xil_pn:start_ts="1412100310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="forbetest_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1411667021" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4187166587394229012" xil_pn:start_ts="1411667021">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411667021" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6483364609863718744" xil_pn:start_ts="1411667021">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411667021" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1411667021">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411667021" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3831252210222654924" xil_pn:start_ts="1411667021">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411667021" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1110319057739476154" xil_pn:start_ts="1411667021">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411667021" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1179623459095889102" xil_pn:start_ts="1411667021">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811137" xil_pn:in_ck="4895220501060865" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-5190214689183552408" xil_pn:start_ts="1411811123">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="fourgate.lso"/>
+      <outfile xil_pn:name="fourgate.ngc"/>
+      <outfile xil_pn:name="fourgate.ngr"/>
+      <outfile xil_pn:name="fourgate.prj"/>
+      <outfile xil_pn:name="fourgate.stx"/>
+      <outfile xil_pn:name="fourgate.syr"/>
+      <outfile xil_pn:name="fourgate.xst"/>
+      <outfile xil_pn:name="fourgate_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811137" xil_pn:in_ck="4895220307631151" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784893635922273503" xil_pn:start_ts="1411811137">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811146" xil_pn:in_ck="-9189618122157414510" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3933598478010877370" xil_pn:start_ts="1411811137">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="fourgate.bld"/>
+      <outfile xil_pn:name="fourgate.ngd"/>
+      <outfile xil_pn:name="fourgate_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811152" xil_pn:in_ck="-9189618122157414509" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6068476255904139836" xil_pn:start_ts="1411811146">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="fourgate.pcf"/>
+      <outfile xil_pn:name="fourgate_map.map"/>
+      <outfile xil_pn:name="fourgate_map.mrp"/>
+      <outfile xil_pn:name="fourgate_map.ncd"/>
+      <outfile xil_pn:name="fourgate_map.ngm"/>
+      <outfile xil_pn:name="fourgate_map.xrpt"/>
+      <outfile xil_pn:name="fourgate_summary.xml"/>
+      <outfile xil_pn:name="fourgate_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811161" xil_pn:in_ck="-9181738090379278292" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3333849164707216606" xil_pn:start_ts="1411811152">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="fourgate.ncd"/>
+      <outfile xil_pn:name="fourgate.pad"/>
+      <outfile xil_pn:name="fourgate.par"/>
+      <outfile xil_pn:name="fourgate.ptwx"/>
+      <outfile xil_pn:name="fourgate.unroutes"/>
+      <outfile xil_pn:name="fourgate.xpi"/>
+      <outfile xil_pn:name="fourgate_pad.csv"/>
+      <outfile xil_pn:name="fourgate_pad.txt"/>
+      <outfile xil_pn:name="fourgate_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811166" xil_pn:in_ck="5330895125655276640" xil_pn:name="TRAN_postParSimModel" xil_pn:prop_ck="6085623735435508923" xil_pn:start_ts="1411811161">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/par/fourgate_timesim.nlf"/>
+      <outfile xil_pn:name="netgen/par/fourgate_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/fourgate_timesim.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811166" xil_pn:in_ck="-8725121027599092275" xil_pn:name="TRAN_copyPost-ParAbstractToPreSimulation" xil_pn:start_ts="1411811166">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="forbetest.v"/>
+      <outfile xil_pn:name="netgen/par/fourgate_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/fourgate_timesim.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811194" xil_pn:in_ck="7689628149695817196" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModelRunFuse" xil_pn:prop_ck="-956339349049543450" xil_pn:start_ts="1411811191">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="forbetest_isim_par.exe"/>
+      <outfile xil_pn:name="forbetest_par.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811195" xil_pn:in_ck="8071442952891276584" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModel" xil_pn:prop_ck="-8538988123295790989" xil_pn:start_ts="1411811194">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="forbetest_isim_par.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1411811161" xil_pn:in_ck="-9189618122157414641" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1411811158">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="fourgate.twr"/>
+      <outfile xil_pn:name="fourgate.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

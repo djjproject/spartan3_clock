@@ -1,0 +1,10 @@
+NET "ln0" LOC = "P63";
+NET "ln1" LOC = "P67";
+NET "reset" LOC ="P65";
+
+NET "dataout[3]" LOC = "P196";
+NET "dataout[2]" LOC = "P198";
+NET "dataout[1]" LOC = "P200";
+NET "dataout[0]" LOC = "P204";
+
+NET "clk" LOC= "P79";

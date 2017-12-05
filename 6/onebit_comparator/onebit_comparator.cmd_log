@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/xilinx/6/onebit_comparator/onebit_comparator.xst" -ofn "D:/xilinx/6/onebit_comparator/onebit_comparator.syr" 
+xst -intstyle ise -ifn "D:/xilinx/6/onebit_comparator/onebit_comparator.xst" -ofn "D:/xilinx/6/onebit_comparator/onebit_comparator.syr" 
+xst -intstyle ise -ifn "D:/xilinx/6/onebit_comparator/onebit_comparator.xst" -ofn "D:/xilinx/6/onebit_comparator/onebit_comparator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/6/onebit_comparator/onebit_comparator.xst" -ofn "C:/Xilinx/xilinx/6/onebit_comparator/onebit_comparator.syr" 

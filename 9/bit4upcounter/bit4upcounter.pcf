@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Oct 27 14:22:15 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P79" LEVEL 1;
+COMP "up" LOCATE = SITE "P65" LEVEL 1;
+COMP "loaden" LOCATE = SITE "P67" LEVEL 1;
+COMP "clken" LOCATE = SITE "P63" LEVEL 1;
+PIN clken_pin<0> = BEL "clken" PINNAME PAD;
+PIN "clken_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "countout<0>" LOCATE = SITE "P200" LEVEL 1;
+COMP "countout<1>" LOCATE = SITE "P198" LEVEL 1;
+COMP "countout<2>" LOCATE = SITE "P196" LEVEL 1;
+COMP "reset" LOCATE = SITE "P57" LEVEL 1;
+COMP "countout<3>" LOCATE = SITE "P191" LEVEL 1;
+COMP "load<0>" LOCATE = SITE "P36" LEVEL 1;
+COMP "load<1>" LOCATE = SITE "P37" LEVEL 1;
+COMP "load<2>" LOCATE = SITE "P35" LEVEL 1;
+COMP "load<3>" LOCATE = SITE "P34" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

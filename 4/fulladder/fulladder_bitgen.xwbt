@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\xilinx\fulladder\fulladder.ncd
+OUTFILE=D:\xilinx\fulladder\fulladder.bit
+FAMILY=Spartan3
+PART=xc3s200-4pq208
+WORKINGDIR=D:\xilinx\fulladder
+LICENSE=WebPack
+USER_INFO=210823755_0_0_213

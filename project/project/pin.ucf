@@ -1,0 +1,79 @@
+net "clk" loc = "p76";
+net "clk1mhz" loc = "p79";
+net "reset" loc = "p57";
+
+net "bhour" loc = "p63";
+net "bmin" loc = "p67";
+net "bsec" loc = "p65";
+net "day" loc = "p71";
+net "stop" loc = "p58";
+
+net "alarmon" loc = "p35";
+net "ampmon" loc = "p34";
+
+net "menu" loc = "p68";
+net "back" loc = "p50";
+net "enter" loc = "p74";
+
+net "b1" loc = "p52";
+net "b2" loc = "p62";
+net "b3" loc = "p61";
+net "poweron" loc = "p45";
+
+net "piezoout" loc = "p51";
+
+net "lcdrs" loc = "p156";
+net "lcde" loc = "p154";
+net "lcdrw" loc = "p155";
+
+net "lcddata[7]" loc = "p143";
+net "lcddata[6]" loc = "p144";
+net "lcddata[5]" loc = "p146";
+net "lcddata[4]" loc = "p147";
+net "lcddata[3]" loc = "p148";
+net "lcddata[2]" loc = "p149";
+net "lcddata[1]" loc = "p150";
+net "lcddata[0]" loc = "p152";
+
+net "com[3]" loc = "p18";
+net "com[2]" loc = "p19";
+net "com[1]" loc = "p20";
+net "com[0]" loc = "p21";
+
+net "dataa[7]" loc = "p22";
+net "dataa[6]" loc = "p24";
+net "dataa[5]" loc = "p26";
+net "dataa[4]" loc = "p27";
+net "dataa[3]" loc = "p28";
+net "dataa[2]" loc = "p29";
+net "dataa[1]" loc = "p31";
+net "dataa[0]" loc = "p33";
+
+net "dataone[7]" loc = "p176";
+net "dataone[6]" loc = "p178";
+net "dataone[5]" loc = "p181";
+net "dataone[4]" loc = "p182";
+net "dataone[3]" loc = "p184";
+net "dataone[2]" loc = "p185";
+net "dataone[1]" loc = "p187";
+net "dataone[0]" loc = "p189";
+
+net "led[15]" loc = "p191";
+net "led[14]" loc = "p196";
+net "led[13]" loc = "p198";
+net "led[12]" loc = "p200";
+net "led[11]" loc = "p204";
+net "led[10]" loc = "p10";
+net "led[9]" loc = "p12";
+net "led[8]" loc = "p15";
+net "led[7]" loc = "p190";
+net "led[6]" loc = "p194";
+net "led[5]" loc = "p197";
+net "led[4]" loc = "p199";
+net "led[3]" loc = "p203";
+net "led[2]" loc = "p205";
+net "led[1]" loc = "p13";
+net "led[0]" loc = "p16";
+
+net "rxd" loc = "p169";
+//net "txd" loc = "p171";

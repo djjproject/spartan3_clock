@@ -1,0 +1,28 @@
+Command line:
+   tb_text_lcd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  6793
+
+Fri Nov 07 21:05:24 2014
+
+
+ Elaboration Time: 0.1092 sec
+
+ Current Memory Usage: 671.236 Meg
+
+ Total Signals          : 31
+ Total Nets             : 57
+ Total Signal Drivers   : 20
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 29
+ Total Traceable Variables  : 56
+ Total Scalar Nets and Variables : 253
+
+ Total Simulation Time: 25.319 sec
+
+ Current Memory Usage: 671.236 Meg
+
+Fri Nov 07 21:36:06 2014
+

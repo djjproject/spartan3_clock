@@ -1,0 +1,147 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml piano_segment.twx piano_segment.ncd -o piano_segment.twr
+piano_segment.pcf -ucf pin.ucf
+
+Design file:              piano_segment.ncd
+Physical constraint file: piano_segment.pcf
+Device,package,speed:     xa3s200,pqg208,-4 (PRODUCTION 1.39 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+a           |    5.240(R)|   -1.660(R)|clk_BUFGP         |   0.000|
+b           |    5.887(R)|   -1.884(R)|clk_BUFGP         |   0.000|
+c           |    6.278(R)|   -0.980(R)|clk_BUFGP         |   0.000|
+d           |    6.136(R)|   -0.096(R)|clk_BUFGP         |   0.000|
+e           |    6.389(R)|   -0.455(R)|clk_BUFGP         |   0.000|
+f           |    3.521(R)|   -0.194(R)|clk_BUFGP         |   0.000|
+g           |    4.895(R)|   -1.500(R)|clk_BUFGP         |   0.000|
+ha          |    5.823(R)|   -1.989(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+piezo       |   10.474(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    9.322|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a              |sa             |   12.346|
+a              |sb             |   12.786|
+a              |sc             |   12.678|
+a              |sd             |   11.773|
+a              |se             |   12.057|
+a              |sf             |   12.074|
+a              |sg             |   12.058|
+b              |sa             |   12.613|
+b              |sb             |   12.740|
+b              |sc             |   12.411|
+b              |sd             |   12.222|
+b              |se             |   12.579|
+b              |sf             |   12.256|
+b              |sg             |   11.892|
+c              |sa             |   12.530|
+c              |sb             |   12.970|
+c              |sc             |   12.862|
+c              |sd             |   11.971|
+c              |se             |   12.328|
+c              |sf             |   12.258|
+c              |sg             |   12.242|
+d              |sa             |   12.748|
+d              |sb             |   13.188|
+d              |sc             |   13.080|
+d              |sd             |   12.175|
+d              |se             |   12.459|
+d              |sf             |   12.476|
+d              |sg             |   12.460|
+e              |sa             |   12.628|
+e              |sb             |   12.826|
+e              |sc             |   12.718|
+e              |sd             |   11.813|
+e              |se             |   12.097|
+e              |sf             |   12.362|
+e              |sg             |   12.098|
+f              |sa             |   12.443|
+f              |sb             |   12.546|
+f              |sc             |   12.412|
+f              |sd             |   11.628|
+f              |se             |   11.985|
+f              |sf             |   12.177|
+f              |sg             |   11.740|
+g              |sa             |   13.625|
+g              |sb             |   13.752|
+g              |sc             |   13.507|
+g              |sd             |   13.234|
+g              |se             |   13.591|
+g              |sf             |   13.272|
+g              |sg             |   12.904|
+ha             |sa             |   13.135|
+ha             |sb             |   13.702|
+ha             |sc             |   13.001|
+ha             |sd             |   12.831|
+ha             |se             |   12.767|
+ha             |sf             |   12.793|
+ha             |sg             |   12.775|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 03 12:25:06 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 141 MB
+
+
+

@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/xilinx/fulladder/fulladder.xst" -ofn "D:/xilinx/fulladder/fulladder.syr" 
+xst -intstyle ise -ifn "D:/xilinx/fulladder/fulladder.xst" -ofn "D:/xilinx/fulladder/fulladder.syr" 
+xst -intstyle ise -ifn "D:/xilinx/fulladder/fulladder.xst" -ofn "D:/xilinx/fulladder/fulladder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fulladder.ucf -p xc3s200-pq208-4 fulladder.ngc fulladder.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o fulladder_map.ncd fulladder.ngd fulladder.pcf 
+par -w -intstyle ise -ol high -t 1 fulladder_map.ncd fulladder.ncd fulladder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fulladder.twx fulladder.ncd -o fulladder.twr fulladder.pcf -ucf fulladder.ucf 
+bitgen -intstyle ise -f fulladder.ut fulladder.ncd 

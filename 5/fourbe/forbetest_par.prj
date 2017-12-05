@@ -1,0 +1,2 @@
+verilog work "netgen/par/fourgate_timesim.v"
+verilog work "forbetest.v"

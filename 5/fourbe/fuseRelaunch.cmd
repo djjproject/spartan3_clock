@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Xilinx/xilinx/5/fourbe/forbetest_isim_beh.exe" -prj "C:/Xilinx/xilinx/5/fourbe/forbetest_beh.prj" "work.forbetest" "work.glbl" 

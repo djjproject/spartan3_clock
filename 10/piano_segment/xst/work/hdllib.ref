@@ -1,0 +1,3 @@
+MO segment NULL ../bcd_7segment_decoder/segment.v vlg1B/segment.bin 1414985066
+MO piano NULL piano.v vlg43/piano.bin 1414985066
+MO piano_segment NULL piano_segment.v vlg31/piano__segment.bin 1414985066

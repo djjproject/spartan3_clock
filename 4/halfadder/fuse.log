@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/xilinx/halfadder/halfadder_halfadder_sch_tb_isim_beh.exe -prj D:/xilinx/halfadder/halfadder_halfadder_sch_tb_beh.prj work.halfadder_halfadder_sch_tb work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/xilinx/halfadder/halfadder.vf" into library work
+Analyzing Verilog file "D:/xilinx/halfadder/halftest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module AND2
+Compiling module XOR2
+Compiling module halfadder
+Compiling module halfadder_halfadder_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 5 Verilog Units
+Built simulation executable D:/xilinx/halfadder/halfadder_halfadder_sch_tb_isim_beh.exe
+Fuse Memory Usage: 27796 KB
+Fuse CPU Usage: 576 ms

@@ -1,0 +1,29 @@
+Command line:
+   forbetest_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  7670
+
+Sat Sep 27 18:46:38 2014
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 504.947 Meg
+
+ Total Signals          : 266
+ Total Nets             : 102
+ Total Signal Drivers   : 93
+ Total Blocks           : 82
+ Total Primitive Blocks : 70
+ Total Processes        : 95
+ Total Traceable Variables  : 134
+ Total Scalar Nets and Variables : 5491
+Total Line Count : 114
+
+ Total Simulation Time: 0.218401 sec
+
+ Current Memory Usage: 504.947 Meg
+
+Sat Sep 27 18:47:21 2014
+

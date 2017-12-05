@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/10/Dynamic_segment/dynamic_segment.xst" -ofn "C:/Xilinx/xilinx/10/Dynamic_segment/dynamic_segment.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/10/Dynamic_segment/dynamic_segment.xst" -ofn "C:/Xilinx/xilinx/10/Dynamic_segment/dynamic_segment.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/xilinx/10/Dynamic_segment/dynamic_segment.xst" -ofn "C:/Xilinx/xilinx/10/Dynamic_segment/dynamic_segment.syr" 

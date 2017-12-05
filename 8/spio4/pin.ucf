@@ -1,0 +1,10 @@
+NET "clear" LOC = "P35";
+NET "datain" LOC = "P34";
+NET "clk" LOC = "P63";
+
+NET "q[3]" LOC = "P191";
+NET "q[2]" LOC = "P196";
+NET "q[1]" LOC = "P198";
+NET "q[0]" LOC = "P200";
+
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;

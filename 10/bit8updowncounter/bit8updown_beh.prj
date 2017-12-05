@@ -1,0 +1,3 @@
+verilog work "../oneshotmodule/oneshot.v"
+verilog work "bit8updown.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

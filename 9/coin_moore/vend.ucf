@@ -1,0 +1,15 @@
+net "coin[3]" loc = "p191";
+net "coin[2]" loc = "p196";
+net "coin[1]" loc = "p198";
+net "coin[0]" loc = "p200";
+
+net "nic" loc = "p63";
+net "dim" loc = "p67";
+
+net "obj1" loc = "p65";
+net "obj2" loc = "p71";
+
+net "ch" loc = "p68";
+net "clk" loc = "p79";
+
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;

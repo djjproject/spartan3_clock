@@ -1,0 +1,38 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = P76;
+NET "resetn" LOC = P57;
+NET "lcde" LOC = P154;
+NET "lcdrs" LOC = P156;
+NET "lcdrw" LOC = P155;
+NET "lcddata[0]" LOC = P152;
+NET "lcddata[1]" LOC = P150;
+NET "lcddata[2]" LOC = P149;
+NET "lcddata[3]" LOC = P148;
+NET "lcddata[4]" LOC = P147;
+NET "lcddata[5]" LOC = P146;
+NET "lcddata[6]" LOC = P144;
+NET "lcddata[7]" LOC = P143;
+NET "ctl[0]" LOC = P58;
+NET "ctl[1]" LOC = P71;
+NET "ctl[2]" LOC = P62;
+NET "ctl[3]" LOC = P50;
+NET "ctl[4]" LOC = P74;
+NET "ctl[5]" LOC = P68;
+NET "ctl[6]" LOC = P67;
+
+NET "lcddata2[0]" LOC = P15;
+NET "lcddata2[1]" LOC = P12;
+NET "lcddata2[2]" LOC = P10;
+NET "lcddata2[3]" LOC = P204;
+NET "lcddata2[4]" LOC = P200;
+NET "lcddata2[5]" LOC = P198;
+NET "lcddata2[6]" LOC = P196;
+NET "lcddata2[7]" LOC = P191;
+
+NET "state[0]" LOC = P199;
+NET "state[1]" LOC = P197;
+NET "state[2]" LOC = P194;
+NET "state[3]" LOC = P190;
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ccc\coin_moore\vend.ncd
+OUTFILE=C:\Users\ccc\coin_moore\vend.bit
+FAMILY=Spartan3
+PART=xc3s200-4pq208
+WORKINGDIR=C:\Users\ccc\coin_moore
+LICENSE=WebPack
+USER_INFO=210940403_0_0_318

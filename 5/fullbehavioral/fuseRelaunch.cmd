@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/xilinx/5/fullbehavioral/test_isim_par.exe" -prj "D:/xilinx/5/fullbehavioral/test_par.prj" "work.test" "work.glbl" 

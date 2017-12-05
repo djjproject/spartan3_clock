@@ -1,0 +1,29 @@
+Command line:
+   fullgate_isim_par.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  9359
+
+Mon Sep 29 03:47:48 2014
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 504.934 Meg
+
+ Total Signals          : 79
+ Total Nets             : 41
+ Total Signal Drivers   : 35
+ Total Blocks           : 23
+ Total Primitive Blocks : 19
+ Total Processes        : 38
+ Total Traceable Variables  : 59
+ Total Scalar Nets and Variables : 1470
+Total Line Count : 70
+
+ Total Simulation Time: 554.849 sec
+
+ Current Memory Usage: 504.934 Meg
+
+Mon Sep 29 03:59:25 2014
+

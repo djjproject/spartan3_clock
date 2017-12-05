@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\xilinx\andgate\andgate.ncd
+OUTFILE=D:\xilinx\andgate\andgate.bit
+FAMILY=Spartan3
+PART=xc3s200-5pq208
+WORKINGDIR=D:\xilinx\andgate
+LICENSE=WebPack
+USER_INFO=210823755_0_0_213

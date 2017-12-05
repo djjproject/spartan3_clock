@@ -1,0 +1,7 @@
+NET "rstn" LOC = "P57";
+NET "x" LOC = "P63";
+
+NET "y[1]" LOC = "P191";
+NET "y[0]" LOC = "P196";
+
+NET "x" CLOCK_DEDICATED_ROUTE=FALSE;

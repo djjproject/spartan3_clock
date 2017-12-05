@@ -1,0 +1,21 @@
+NET "datain[3]" LOC = "P34";
+NET "datain[2]" LOC = "P35";
+NET "datain[1]" LOC = "P37";
+NET "datain[0]" LOC = "P36";
+
+NET "clk1" LOC = "P63";
+NET "clk2" LOC = "P67";
+
+NET "a[3]" LOC = "P191";
+NET "a[2]" LOC = "P196";
+NET "a[1]" LOC = "P198";
+NET "a[0]" LOC = "P200";
+NET "b[3]" LOC = "P204";
+NET "b[2]" LOC = "P10";
+NET "b[1]" LOC = "P12";
+NET "b[0]" LOC = "P15";
+
+NET "clk1" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clk2" CLOCK_DEDICATED_ROUTE = FALSE;
+
+

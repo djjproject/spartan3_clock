@@ -1,0 +1,29 @@
+Command line:
+   fullgate_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  9091
+
+Mon Sep 29 03:41:14 2014
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 504.926 Meg
+
+ Total Signals          : 23
+ Total Nets             : 21
+ Total Signal Drivers   : 13
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 104
+Total Line Count : 24
+
+ Total Simulation Time: 0.0468 sec
+
+ Current Memory Usage: 504.926 Meg
+
+Mon Sep 29 03:45:06 2014
+
